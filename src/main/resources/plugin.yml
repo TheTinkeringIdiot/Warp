@@ -1,0 +1,10 @@
+name: Warp # The name of your plugin
+author: "tinkeringidiot" # Your username.
+main: com.tinkeringidiot.warp.Warp # Replace "me.mfnalex" with the Group ID you chose, and adjust "helloworldplugin.HelloWorldPlugin" if you chose another plugin name.
+version: ${project.version} # Maven will automatically replace this with the version number defined in your pom.xml
+api-version: "1.13" # Optional, but you should add this when your plugin should run on ANY versions above 1.13
+
+commands:
+  warp:
+    description: Warp to a destination
+    usage: /<command> <destination or player>
